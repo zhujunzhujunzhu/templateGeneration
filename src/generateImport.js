@@ -16,7 +16,6 @@ const list = [
     author: "王松",
     description: "年龄",
   },
-
   {
     path: "right/sex.vue",
     author: "王松",

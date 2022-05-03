@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"node ./src/index.js"
+    "build": "node ./src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,9 @@
   "dependencies": {
     "fs-extra": "^10.0.1",
     "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "cheerio": "1.0.0-rc.10",
+    "request": "^2.88.2"
   }
 }
