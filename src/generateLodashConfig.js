@@ -1,7 +1,7 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const baseUrl = "https://www.lodashjs.com";
-const url = `${baseUrl}/docs/lodash.chunk`;
+const url = `${baseUrl}/docs/lodash.after`;
 
 const download = (url) => {
   return new Promise((resolve, reject) => {
@@ -28,7 +28,7 @@ module.exports = async function generateConfig() {
 
   const a = $(".menu__list li a");
 
-  const base = "array/";
+  const base = "function/";
 
   const suba = Array.from(a).filter((it) => {
     return (
